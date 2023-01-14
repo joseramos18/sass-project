@@ -27,14 +27,11 @@ header {
 .why {
   text-align: center;
   background: var(--gray);
-  padding-top: 5em;
+  padding: 5em 0;
 }
 .why .copy {
   margin-bottom: 4em;
   font-size: 1em;
-}
-.why__item {
-  margin-bottom: 1em;
 }
 .why__item .copy {
   margin-bottom: 2em;
