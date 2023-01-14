@@ -1,0 +1,31 @@
+.footer {
+    background: var(--darkBlue);
+    color: var(--white);
+    padding: 2em 0;
+    text-align: center;
+    svg{
+        // //IMPORTANTE display block hace que ningun elemento este al lado
+         display: block;
+        // //IMPORTANTE margin auto centra el elemento dentro del block 
+        margin: auto;
+         margin-bottom: 2em;
+    }
+    &__social{
+        //TODO aprender sobre grid
+        display: grid;
+        grid-template-columns: repeat(5, 25px);
+        grid-column-gap: 1em;
+        justify-content: center;
+        margin: 2.5em 0;
+    }
+    &__links{
+        a{
+            display: block;
+            margin-bottom: 2em;
+        }
+    }
+    &__copyright{
+        color: var(--grayBlue);
+        margin-top: 2.5em;
+    }
+}
