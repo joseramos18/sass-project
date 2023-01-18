@@ -38,6 +38,12 @@ body {
 
 .wrapper {
   padding: 0 var(--wrapperSpace);
+  max-width: 1115px;
+  width: 100%;
+  //TODOD aprender box-sizing
+  // box-sizing: border-box;
+  //PERSONAL
+  //  margin: auto;
 }
 // IMPORTANTE para crear un conjunto de variables para copiarse en donde lo inlcuyan
 @mixin title {
